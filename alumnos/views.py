@@ -74,3 +74,13 @@ def Registro(request):
     alumnos= Alumno.objects.all()
     context={"alumnos":alumnos}
     return render(request, 'alumnos/Registro.html', context)
+
+def gestionsolicitudes(request):
+    alumnos= Alumno.objects.all()
+    context={"alumnos":alumnos}
+    return render(request, 'alumnos\gestionsolicitudes.html', context)
+
+def editarsolicitud(request):
+    alumnos= Alumno.objects.all()
+    context={"alumnos":alumnos}
+    return render(request, 'alumnos\editarsolicitud.html', context) 

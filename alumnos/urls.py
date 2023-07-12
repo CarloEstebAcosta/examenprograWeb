@@ -18,4 +18,6 @@ urlpatterns = [
     path('Collar', views.Collar, name='Collar'),
     path('Bebedero', views.Bebedero, name='Bebedero'),
     path('Registro', views.Registro, name='Registro'),
+    path('editarsolicitud', views.editarsolicitud, name='editarsolicitud'),
+    path('gestionsolicitudes', views.gestionsolicitudes, name='gestionsolicitudes'),
 ]
