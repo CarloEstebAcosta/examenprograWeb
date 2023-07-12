@@ -2,6 +2,17 @@ from django.db import models
 
 # Create your models here.
 
+#Base de datos que no pudimos modificar
+
+#class Solicitud(models.Model):
+#    Id = models.CharField(primary_key=True, max_length=6)
+#    Nombre_solicitud = models.CharField(max_length=50)
+#    Mensaje = models.CharField(max_length=5000)
+
+#    def __str__(self):
+#        texto = "{0}"
+#        return texto.format(self.Id)
+
 class Genero(models.Model):
     id_genero  = models.AutoField(db_column='idGenero', primary_key=True) 
     genero     = models.CharField(max_length=20, blank=False, null=False)

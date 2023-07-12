@@ -4,6 +4,13 @@ from django.urls import path
 from  . import views
 
 urlpatterns = [
+    #urls de los de CRUD
+
+    #path('', views.gestion),
+    #path('RegistrarSolicitud/', views.RegistrarSolicitud),
+    #path('editarSolicitud/<Id>', views.editarSolicitud),
+    #path('edicionSolicitud/<Id>', views.edicionSolicitud),
+    #path('eliminarSolicitud/<Id>', views.eliminarSolicitud),
     path('index', views.index, name='index'),
     path('crud', views.crud, name='crud'),
     path('Nosotros', views.Nosotros, name='Nosotros'),
