@@ -12,5 +12,10 @@ urlpatterns = [
     path('Tienda', views.Tienda, name='Tienda'),
     path('AcsTienda', views.AcsTienda, name='AcsTienda'),
     path('AliTienda', views.AliTienda, name='AliTienda'),
-
+    path('Login', views.Login, name='Login'),
+    path('ComidaPerro', views.ComidaPerro, name='ComidaPerro'),
+    path('ComidaGato', views.ComidaGato, name='ComidaGato'), 
+    path('Collar', views.Collar, name='Collar'),
+    path('Bebedero', views.Bebedero, name='Bebedero'),
+    path('Registro', views.Registro, name='Registro'),
 ]

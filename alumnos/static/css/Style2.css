@@ -11,7 +11,7 @@
 }
 
 body{
-    background: url(./img/fondo.jpg);
+    background: "{% static 'img/fondo.jpg' %)";
     margin: 15%;
     background-position: center;
 }

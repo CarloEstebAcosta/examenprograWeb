@@ -15,35 +15,35 @@
 </head>
 
 <body>
-    <div>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="{% url 'index' %}">TiendaColectiva</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="{% url 'Nosotros' %}">Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a id = "saltoTienda" class="nav-link" href="{% url 'Tienda' %}">Tienda</a>
-                  </li>
-                  <li class="nav-item">
-                    <a id = "saltoFundaciones"class="nav-link" href="{% url 'Fundaciones' %}">Donaciones</a>
-                  </li>
-                  <li class="nav-item">
-                    <a id = "saltoContacto" class="nav-link" href="{% url 'Contacto' %}">Contacto</a>
-                  </li>
-                  <li class="nav-item">
-                    <a id = "saltoLogin" class="nav-link" href="login.html">Login</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </div>
+  <div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="{% url 'index' %}">TiendaColectiva</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{% url 'Nosotros' %}">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a id = "saltoTienda" class="nav-link" href="{% url 'Tienda' %}">Tienda</a>
+              </li>
+              <li class="nav-item">
+                <a id = "saltoFundaciones"class="nav-link" href="{% url 'Fundaciones' %}">Donaciones</a>
+              </li>
+              <li class="nav-item">
+                <a id = "saltoContacto" class="nav-link" href="{% url 'Contacto' %}">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a id = "saltoLogin" class="nav-link" href="{% url 'Login' %}">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </div>
     <div class="container-sm">
         <div id="carouselExampleDark" class="carousel carousel-dark slide">
             <div class="carousel-indicators">

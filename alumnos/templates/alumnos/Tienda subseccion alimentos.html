@@ -41,7 +41,7 @@
               <a id = "saltoContacto" class="nav-link" href="{% url 'Contacto' %}">Contacto</a>
             </li>
             <li class="nav-item">
-              <a id = "saltoLogin" class="nav-link" href="login.html">Login</a>
+              <a id = "saltoLogin" class="nav-link" href="{% url 'Login' %}">Login</a>
             </li>
           </ul>
         </div>
@@ -70,7 +70,7 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">Comidas para perros</h5>
-                <a href="comida Perro.html">
+                <a href="{% url 'ComidaPerro' %}">
                 <button type="submit" class="btn btn-primary">Ver Productos</button>
                 </a>
             </div>
@@ -87,7 +87,7 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">Comidas para gatos</h5>
-                <a href="./Comida Gato.html">
+                <a href="{% url 'ComidaGato' %}">
                 <button type="submit" class="btn btn-primary">Ver Productos</button>
                 </a>
             </div>

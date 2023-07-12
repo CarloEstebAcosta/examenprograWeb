@@ -45,3 +45,32 @@ def AcsTienda(request):
     context={"alumnos":alumnos}
     return render(request, 'alumnos/Tienda subseccion  accesorios.html', context)
 
+def Login(request):
+    alumnos= Alumno.objects.all()
+    context={"alumnos":alumnos}
+    return render(request, 'alumnos/Login.html', context)
+
+def ComidaPerro(request):
+    alumnos= Alumno.objects.all()
+    context={"alumnos":alumnos}
+    return render(request, 'alumnos/Comida Perro.html', context)
+
+def ComidaGato(request):
+    alumnos= Alumno.objects.all()
+    context={"alumnos":alumnos}
+    return render(request, 'alumnos/Comida Gato.html', context)
+
+def Collar(request):
+    alumnos= Alumno.objects.all()
+    context={"alumnos":alumnos}
+    return render(request, 'alumnos/Collar.html', context)
+
+def Bebedero(request):
+    alumnos= Alumno.objects.all()
+    context={"alumnos":alumnos}
+    return render(request, 'alumnos/Bebedero.html', context) 
+
+def Registro(request):
+    alumnos= Alumno.objects.all()
+    context={"alumnos":alumnos}
+    return render(request, 'alumnos/Registro.html', context)
